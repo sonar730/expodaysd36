@@ -5,78 +5,27 @@
   <title>Bicycle Safety Gear for All Weather Conditions</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="A detailed guide to bicycle safety gear for good and inclement weather, with a focus on high-visibility equipment and real-world examples.">
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #f4f4f4;
-      color: #222;
-      line-height: 1.6;
-    }
-
-    header {
-      background: #1e6bb8;
-      color: #fff;
-      padding: 30px 40px;
-      text-align: center;
-    }
-
-    header h1 {
-      margin: 0;
-      font-size: 2rem;
-    }
-
-    main {
-      max-width: 1000px;
-      margin: 30px auto;
-      background: #fff;
-      padding: 30px 40px;
-      border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    }
-
-    h2 {
-      color: #1e6bb8;
-      margin-top: 40px;
-    }
-
-    h3 {
-      margin-top: 25px;
-      color: #333;
-    }
-
-    .highlight {
-      background: #e8f2ff;
-      border-left: 4px solid #1e6bb8;
-      padding: 12px 16px;
-      margin: 20px 0;
-    }
-
-    ul {
-      padding-left: 20px;
-    }
-
-    footer {
-      text-align: center;
-      padding: 20px;
-      font-size: 0.9rem;
-      color: #555;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
 <header>
   <h1>Bicycle Safety Gear for All Weather Conditions</h1>
-  <p>High‑visibility, all‑weather protection for safer cycling year‑round.</p>
+  <p>High‑visibility, all‑weather protection for safer cycling year‑round</p>
 </header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="helmets.html">Helmets</a>
+  <a href="safety-gear.html" class="active">Safety Gear</a>
+</nav>
 
 <main>
 
   <section>
     <h2>Why High Visibility Is the #1 Safety Priority</h2>
     <p>
-      Most cycling accidents involving cars happen because the driver didn’t see the cyclist in time.
+      Most cycling accidents involving cars happen because the driver didn't see the cyclist in time.
       High‑visibility gear dramatically increases your chances of being noticed — especially in rain,
       fog, dusk, dawn, or shaded areas.
     </p>
@@ -103,7 +52,7 @@
 
     <h3>2. Reflective Vests</h3>
     <p>
-      Lightweight and easy to throw over any outfit. Great for riders who don’t want to buy multiple
+      Lightweight and easy to throw over any outfit. Great for riders who don't want to buy multiple
       high‑visibility tops.
     </p>
     <ul>
@@ -235,12 +184,11 @@
 </main>
 
 <footer>
-  &copy; <span id="year"></span> Bicycle Safety Gear Guide. Stay bright. Stay safe.
+  <p>&copy; <span id="year"></span> Bicycle Safety & Gear Guide. Stay bright. Stay safe.</p>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </footer>
-
-<script>
-  document.getElementById('year').textContent = new Date().getFullYear();
-</script>
 
 </body>
 </html>
